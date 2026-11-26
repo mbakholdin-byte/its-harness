@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "name": "its-harness",
+  "version": "0.6.8",
+  "displayName": "ITS Harness",
+  "author": "NPO ITS",
+  "category": "Productivity",
+  "description": "Управляющий контур харнеса НПО ИТС: дисциплина работы агента (anti-loop, план-режим, верификация, ревью-цикл), память, приёмочные гейты, MCP-память hmem. Ядро перенесено с харнеса Kimi Code.",
+  "exampleQueries": [
+    "Спланируй задачу и прими результат по гейту",
+    "Проверь свой ответ перед выдачей",
+    "Найди в памяти, как мы решали похожую задачу"
+  ],
+  "icon": "icon.png",
+  "apps": [],
+  "skills": [
+    "skills/self-correction/SKILL.md",
+    "skills/unstuck/SKILL.md",
+    "skills/plan-mode/SKILL.md",
+    "skills/alex-review-loop/SKILL.md",
+    "skills/auto-verify/SKILL.md",
+    "skills/deep-research/SKILL.md",
+    "skills/agent-dispatch/SKILL.md",
+    "skills/verdict-file/SKILL.md",
+    "skills/verifier-pass/SKILL.md"
+  ],
+  "hooks": [
+    "hooks/hooks.json"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "skill_id": "self-correction",
+  "version": "1.0.0",
+  "updated_at": "2026-04-12T17:00:00Z",
+  "entries": [
+    {
+      "id": "ev_y3z",
+      "source": "user_correction",
+      "timestamp": "2026-04-12T17:00:00Z",
+      "context": "Марк остановил поиск hmem в opencode.json — hmem работает через прокси, не напрямую",
+      "section": "Instructions",
+      "content": "## MCP-серверы: прокси vs напрямую\n- 21 upstream MCP работают ЧЕРЕЗ mcp-fas-proxy (прокси)\n- Напрямую подключены ТОЛЬКО 3: gety, tavily, встроенные opencode tools\n- hmem, fas-vision, tender-monitor — всё через прокси\n- НЕ искать upstream серверы в opencode.json — смотреть в mcp-fas-proxy.json",
+      "applied": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "mcpServers": {
+    "hmem": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${HMEM_MCP_CLI}"],
+      "env": {
+        "HMEM_PROJECT_DIR": "${HMEM_PROJECT_DIR}",
+        "HMEM_AGENT_ID": "${HMEM_AGENT_ID}"
+      }
+    }
+  }
+}
