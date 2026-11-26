@@ -2,16 +2,7 @@
 name: unstuck
 description: Расширение self-correction. Выход из тупика, когда самокоррекция не помогла. Конкретные стратегии возврата к прогрессу.
 metadata:
-  triggers:
-    - "ты застрял"
-    - "это не работает"
-    - "давай по-другому"
-    - "попробуй другой подход"
-    - "ты ходишь по кругу"
-contract:
-  produce: [recovery_strategy, hmem_record]
-  consume: [failure_context]
-depends_on: [self-correction]
+  triggers: "ты застрял, это не работает, давай по-другому, попробуй другой подход, ты ходишь по кругу"
 ---
 
 # Unstuck: Выход из тупика

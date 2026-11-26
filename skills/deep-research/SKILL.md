@@ -2,21 +2,10 @@
 name: deep-research
 description: Используется когда нужен точный, проверенный поиск в интернете важной информации (фактчекинг, даты, цифры, нормативы, релизы) — мультидвижковый поиск с чтением первоисточников, кросс-верификацией фактов и отчётом с цитатами. Цель — качество выше Perplexity
 metadata:
-  triggers:
-    - "точный поиск"
-    - "исследуй тему"
-    - "deep research"
-    - "проверь факт"
-    - "найди точно в интернете"
-    - "важная информация поищи"
-  mcp_tools:
+  triggers: "точный поиск, исследуй тему, deep research, проверь факт, найди точно в интернете, важная информация поищи"  mcp_tools:
     - "webclaw"
     - "tavily"
     - "brave-search"
-contract:
-  produce: [research_report, verified_facts, source_table]
-  consume: [research_question]
-depends_on: []
 ---
 
 # Deep Research — точный поиск с верификацией

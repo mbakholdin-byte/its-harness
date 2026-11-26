@@ -2,16 +2,7 @@
 name: plan-mode
 description: Формализованный режим планирования для сложных задач. Сначала план с acceptance criteria, потом выполнение.
 metadata:
-  triggers:
-    - "сделай план"
-    - "спланируй"
-    - "как бы ты подошёл"
-    - "сначала спланируй"
-    - "распиши план"
-contract:
-  produce: [structured_plan, acceptance_checklist]
-  consume: [task_description]
-depends_on: []
+  triggers: "сделай план, спланируй, как бы ты подошёл, сначала спланируй, распиши план"
 ---
 
 # Plan-Mode: Режим планирования

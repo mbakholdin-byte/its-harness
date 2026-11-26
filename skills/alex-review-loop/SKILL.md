@@ -5,17 +5,8 @@ descriptions:
   zh-Hans: "评审-批评循环：执行 → 批评 → 修复，结论写入可机器解析的 verdict 文件。"
 license: MIT
 metadata:
-  triggers:
-    - "#review"
-    - "проверь результат"
-    - "критика результата"
-    - "review перед показом"
-  version: "1.1"
+  triggers: "#review, проверь результат, критика результата, review перед показом"  version: "1.1"
   canon: "КАТАЛОГ_КАНОНОВ\VERDICT_FILE.md v1.0, КАТАЛОГ_КАНОНОВ\VERIFIER_PASS.md v1.7"
-contract:
-  produce: [verdict_file, review_verdict]
-  consume: [task_result, execution_plan]
-depends_on: [verdict-file]
 ---
 
 # Alex Review Loop — review-критик результата

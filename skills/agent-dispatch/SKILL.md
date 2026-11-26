@@ -5,17 +5,8 @@ descriptions:
   zh-Hans: "委派规范：何时派发子代理、如何组装交接包（goal/sources/constraints/result/return）以及如何验收回传。"
 license: MIT
 metadata:
-  triggers:
-    - "делегируй"
-    - "отправь субагенту"
-    - "нужен второй взгляд"
-    - "проверь результат"
-  version: "1.0"
+  triggers: "делегируй, отправь субагенту, нужен второй взгляд, проверь результат"  version: "1.0"
   canon: "КАТАЛОГ_КАНОНОВ\HANDOFF_PACKET.md v1.0"
-contract:
-  produce: [handoff_brief, handoff_report]
-  consume: [task, acceptance_criteria]
-depends_on: [verdict-file]
 ---
 
 # Agent Dispatch — канон делегирования (MiniMax Code)

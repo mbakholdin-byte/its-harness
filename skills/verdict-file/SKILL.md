@@ -5,16 +5,8 @@ descriptions:
   zh-Hans: "裁决文件规范：机器可读的 artifact.verdict.md，首行 verdict: PASS|FAIL|ESCALATE。"
 license: MIT
 metadata:
-  triggers:
-    - "напиши вердикт"
-    - "verdict-файл"
-    - "проверь и вынеси вердикт"
-  version: "1.0"
+  triggers: "напиши вердикт, verdict-файл, проверь и вынеси вердикт"  version: "1.0"
   canon: "КАТАЛОГ_КАНОНОВ\VERDICT_FILE.md v1.0"
-contract:
-  produce: [verdict_file]
-  consume: [artifact, criteria]
-depends_on: []
 ---
 
 # Verdict File — канон машиночитаемого вердикта

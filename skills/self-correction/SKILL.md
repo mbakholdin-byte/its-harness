@@ -6,10 +6,6 @@ description: >
   или инструмент падает 2+ раза подряд, скрипт выполняется без результата,
   или агент собирается повторить уже озвученный план. Предотвращает бесполезный
   расход токенов и шагов.
-contract:
-  produce: [error_diagnosis, strategy_change]
-  consume: [repeated_error_signal]
-depends_on: [skill-evolution, auto-verify]
 ---
 
 # Self-Correction (Самокоррекция)

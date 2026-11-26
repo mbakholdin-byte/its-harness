@@ -5,17 +5,8 @@ descriptions:
   zh-Hans: "独立验收：验收包（门禁自检 + verify_gate）→ 全新隔离的批评子代理 → 裁决文件。"
 license: MIT
 metadata:
-  triggers:
-    - "проверь независимо"
-    - "нужен критик"
-    - "приёмка результата"
-    - "перед выдачей проверь"
-  version: "1.0"
+  triggers: "проверь независимо, нужен критик, приёмка результата, перед выдачей проверь"  version: "1.0"
   canon: "VERIFIER_PASS v1.6 §5 и §9 (точка подключения Mavis — плагин its-harness)"
-contract:
-  produce: [verdict_file, acceptance_brief]
-  consume: [artifact, task_statement, sources]
-depends_on: [verdict-file, agent-dispatch]
 ---
 
 # Verifier Pass — независимый критик (MiniMax Code)
