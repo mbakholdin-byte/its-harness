@@ -5,7 +5,7 @@ license: MIT
 metadata:
   triggers: "#review, проверь результат, критика результата, review перед показом"
   version: "1.1"
-  canon: "КАТАЛОГ_КАНОНОВ\VERDICT_FILE.md v1.0, КАТАЛОГ_КАНОНОВ\VERIFIER_PASS.md v1.7"
+  canon: 'КАТАЛОГ_КАНОНОВ\VERDICT_FILE.md v1.0, КАТАЛОГ_КАНОНОВ\VERIFIER_PASS.md v1.7'
 ---
 
 # Alex Review Loop — review-критик результата

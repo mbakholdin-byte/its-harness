@@ -5,7 +5,7 @@ license: MIT
 metadata:
   triggers: "делегируй, отправь субагенту, нужен второй взгляд, проверь результат"
   version: "1.0"
-  canon: "КАТАЛОГ_КАНОНОВ\HANDOFF_PACKET.md v1.0"
+  canon: 'КАТАЛОГ_КАНОНОВ\HANDOFF_PACKET.md v1.0'
 ---
 
 # Agent Dispatch — канон делегирования (MiniMax Code)

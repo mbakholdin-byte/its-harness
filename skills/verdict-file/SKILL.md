@@ -5,7 +5,7 @@ license: MIT
 metadata:
   triggers: "напиши вердикт, verdict-файл, проверь и вынеси вердикт"
   version: "1.0"
-  canon: "КАТАЛОГ_КАНОНОВ\VERDICT_FILE.md v1.0"
+  canon: 'КАТАЛОГ_КАНОНОВ\VERDICT_FILE.md v1.0'
 ---
 
 # Verdict File — канон машиночитаемого вердикта
