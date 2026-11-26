@@ -1,11 +1,10 @@
 ---
 name: agent-dispatch
 description: "Канон делегирования: когда отправлять задачу субагенту, как собрать бриф (goal/sources/constraints/result/return) и как принять возврат (СДЕЛАНО/РЕЗУЛЬТАТ/ПРОВЕРКА/НЕ СДЕЛАНО/ПРОБЛЕМЫ/ПРОЦЕДУРЫ). Триггеры: задача на 5+ шагов, параллельные read-only ветки, нужен свежий независимый критик (verifier-pass)."
-descriptions:
-  zh-Hans: "委派规范：何时派发子代理、如何组装交接包（goal/sources/constraints/result/return）以及如何验收回传。"
 license: MIT
 metadata:
-  triggers: "делегируй, отправь субагенту, нужен второй взгляд, проверь результат"  version: "1.0"
+  triggers: "делегируй, отправь субагенту, нужен второй взгляд, проверь результат"
+  version: "1.0"
   canon: "КАТАЛОГ_КАНОНОВ\HANDOFF_PACKET.md v1.0"
 ---
 
