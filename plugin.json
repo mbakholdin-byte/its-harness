@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "its-harness",
+  "version": "0.6.8",
+  "description": "Agent discipline harness: anti-loop, plan mode, verification gates, review loop, deep research.",
+  "author": {
+    "name": "NPO ITS"
+  },
+  "repository": "https://github.com/mbakholdin-byte/its-harness",
+  "keywords": [
+    "harness",
+    "discipline",
+    "verification",
+    "review"
+  ]
+}
